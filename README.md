@@ -32,7 +32,7 @@ La modification du compte:
 <img src="caps/update.PNG">
 
 
-La suppression du compte:
+La suppression du compte :
 
 
 <img src="caps/delete.PNG">
