@@ -48,4 +48,5 @@ public class AccountServiceImpl implements IAccountService{
         BankAccountResponseDTO responseDTO = mapper.fromBankAccount(bankAccount);
         return responseDTO;
     }
+
 }

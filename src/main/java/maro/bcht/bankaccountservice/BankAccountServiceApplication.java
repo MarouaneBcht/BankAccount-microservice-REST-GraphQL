@@ -25,7 +25,7 @@ public class BankAccountServiceApplication {
     CommandLineRunner commandLineRunner(BankAccountRepository bankAccountRepository,
                                         CustomerRepository customerRepository) {
         return args -> {
-            Stream.of("Marouane","Hamza","Oussama","Mohamed").forEach(c ->{
+            Stream.of("Oussama","Marouane","Nawfal","Abrak").forEach(c ->{
                 Customer customer = Customer.builder()
                         .name(c)
                         .build();
